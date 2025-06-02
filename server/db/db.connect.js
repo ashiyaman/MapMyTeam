@@ -3,8 +3,6 @@ require('dotenv').config()
 
 const mongoURL = process.env.MONGODB_URL
 
-console.log("MongoDB URL:", mongoURL);
-
 const initializeDatabase = async() => {
     try {
         await mongoose
