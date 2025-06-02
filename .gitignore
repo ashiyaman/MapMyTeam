@@ -1,0 +1,19 @@
+# Node modules (backend)
+server/node_modules/
+
+# Node modules (frontend)
+client/node_modules/
+
+# Build output (frontend)
+client/build/
+
+# Env files
+*.env
+server/.env
+client/.env
+
+# Logs
+*.log
+server/logs/
+client/logs/
+
